@@ -1,0 +1,22 @@
+/* Landing Page List */
+#dm-landingpages-menu {
+  	display: flex;
+  	flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+#dm-landingpages-menu .area-list {
+    width: clamp(250px,calc(25% - 10px),25%);
+    flex-grow: 1;
+    margin: 5px;
+}
+#lp_searchbar_holder {
+    background: #f7f7f7;
+    padding: 15px;
+    margin-top: 15px;
+}
+#lp_searchbar_holder input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    min-width: 50%;
+}
